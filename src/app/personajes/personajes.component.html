@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+
+<h1  class=" animated  pulse delay-1s">Lista de Personaje:</h1>
+
+<div id="resultados" class="container animated  slideInRight delay-1s">
+        <div class="row">
+        <div class="col-3 text-center text-string" id="maqueta" *ngFor="let resultado of resultados.characters">
+         <p>{{resultado.name}}</p>
+          <img  [routerLink]="['/personajesDetalle/'+resultado.mal_id]" class="img-fluid" src="{{resultado.image_url}}"/>
+             <p><strong>Rol:</strong>{{resultado.role}}</p>
+        </div>
+    </div>
+    </div>

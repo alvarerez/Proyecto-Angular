@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.76);
+}
+p{
+    text-align: center;
+    font-size: 24px;
+}
+
+#resultados img{
+    width: 200px;
+    height: 300px;
+    margin-top:20px;
+}
+#maqueta{
+    border: 2px solid black;
+    font-size: 16px;
+    font-style: italic;
+}
+#resultados{
+        background-color: rgba(255, 255, 255, 0.35);
+
+}

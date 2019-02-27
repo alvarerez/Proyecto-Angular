@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.76);
+    color: aliceblue;
+}
+#carta{
+    border: 4px solid black;
+    font-size: 20px;
+    margin: 10px;
+    background-color: rgba(238, 255, 180, 0.76);
+}
+#carta img{
+    float: left;
+    margin-top: 15px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-right: 1em;
+}
+strong{
+    font-size: 22px;
+}

@@ -1,0 +1,13 @@
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<h1 class=" animated  bounceInDown delay-1s">Anime de temporada</h1>
+
+<div id="resultados" class="container animated  slideInUp delay-1s">
+        <div class="row">
+        <div class="col-3 text-center text-string" id="maqueta" *ngFor="let resultado of resultados.anime">
+          <img  [routerLink]="['/detalleAnime/'+resultado.mal_id]" class="img-fluid" src="{{resultado.image_url}}"/>
+                     <p>{{resultado.title}}</p>
+
+        </div>
+    </div>
+    </div>
